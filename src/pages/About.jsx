@@ -226,9 +226,9 @@
 
 
 import { motion } from "framer-motion";
-import qualityIcon from '../assets/icons/order.svg';
-import scooterIcon from '../assets/icons/take.svg';
-import heartIcon from '../assets/icons/waiter.svg';
+import qualityIcon from '../assets/icons/orderimg.svg';
+import scooterIcon from '../assets/icons/takeimg.svg';
+import heartIcon from '../assets/icons/waiterimg.svg';
 
 const About = () => {
   const features = [
