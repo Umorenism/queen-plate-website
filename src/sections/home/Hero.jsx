@@ -97,17 +97,19 @@ const Hero = () => {
             <div>
               <p className="font-bold text-sm">Our Happy Customer</p>
               <p className="text-xs text-gray-500">⭐ 4.8 <span className="ml-1">(12.5k Review)</span></p>
-              <button className="text-xs font-bold text-[#A41C2E] mt-1 flex items-start gap-1">
-                See more <span className="bg-[#A41C2E] text-white rounded-full p-0.5 text-[10px]">→</span>
-              </button>
+             
             </div>
+             
           </div>
+          <button className="text-xs font-bold text-[#A41C2E]  flex items-start gap-1">
+                See more <div className="border-[#A41C2E] border text-[#A41C2E] rounded-full w-5 h-5 text-[10px]">→</div>
+              </button>
         </motion.div>
 
         {/* Right Visuals */}
         <div className="relative flex justify-center items-center">
           {/* Main Burgundy Background Shape */}
-          <div className="absolute w-[80%] h-[78%] bg-[#A41C2E] rounded-[60px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-[-5deg]" />
+          <div className="absolute w-[80%] h-[78%] bg-[#A41C2E] rounded-[60px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-[-1deg]" />
           
           {/* Main Large Food Circle */}
           <motion.div 

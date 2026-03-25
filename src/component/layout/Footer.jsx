@@ -74,7 +74,10 @@
 
 import { motion } from "framer-motion";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
-import logo from "../../assets/image/logo.svg";
+import logo from "../../assets/image/footerimg.svg";
+import icon from '../../assets/icons/footericon.svg'
+import ig1 from '../../assets/icons/ig.svg'
+import fb1 from '../../assets/icons/fb.svg'
 
 export const Footer = () => {
   return (
@@ -171,8 +174,8 @@ export const Footer = () => {
             whileHover={{ y: -4 }}
             className="bg-white text-[#9C1E2E] rounded-lg p-4 flex items-start gap-3 w-fit"
           >
-            <div className="w-8 h-8 bg-[#9C1E2E] text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-              🍽️
+            <div className="w-10 h-10 bg-[#9C1E2E] text-white rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+              <img src={icon} alt="footer-icons" className="h-auto object-contain" />
             </div>
 
             <div>
@@ -192,7 +195,8 @@ export const Footer = () => {
               href="#"
               className="text-2xl"
             >
-              <FaInstagram className="text-yellow-500" />
+              {/* <FaInstagram className="text-yellow-500" /> */}
+              <img src={ig1} alt="" className="object-contain"/>
             </motion.a>
 
             <motion.a
@@ -201,7 +205,8 @@ export const Footer = () => {
               href="#"
               className="text-2xl"
             >
-              <FaFacebook className="text-blue-600" />
+              {/* <FaFacebook className="text-blue-600" /> */}
+              <img src={fb1} alt="" className="object-contain" />
             </motion.a>
 
           </div>

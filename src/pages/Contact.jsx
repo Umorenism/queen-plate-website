@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { Phone, Mail,  Clock } from 'lucide-react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -46,11 +46,11 @@ export default function Contact() {
 
             {/* Left Column - Contact Info */}
             <div className="space-y-10">
-              {[Phone, Mail, MapPin, Clock].map((Icon, index) => {
+              {[Phone, Mail,  Clock].map((Icon, index) => {
                 const content = [
                   ["Phone", "+234 812 345 6789"],
                   ["Email", "hello@queenplate.com"],
-                  ["Location", "12 Orion road Uyo, Akwa Ibom State."],
+                  // ["Location", "12 Orion road Uyo, Akwa Ibom State."],
                   ["Hours", "Mon-Sun: 8AM - 10PM"],
                 ];
 
