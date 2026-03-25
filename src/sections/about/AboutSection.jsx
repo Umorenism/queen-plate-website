@@ -179,10 +179,9 @@
 
 
 import { motion } from "framer-motion";
-import qualityIcon from '../../assets/icons/Order.svg';
+import qualityIcon from '../../assets/icons/order.svg';
 import scooterIcon from '../../assets/icons/take.svg';
 import heartIcon from '../../assets/icons/waiter.svg';
-
 export const AboutSection = () => {
   const features = [
     {
