@@ -259,7 +259,7 @@ const About = () => {
     >
       <div className="max-w-7xl mt-10 mx-auto px-6 text-center">
 
-        <motion.p
+        {/* <motion.p
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
@@ -267,30 +267,60 @@ const About = () => {
           className="text-sm text-red-500 font-semibold mb-2"
         >
           About Us
-        </motion.p>
+        </motion.p> */}
 
         <motion.h2
           initial={{ y: 40, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-4xl font-bold text-gray-800 mb-6"
+          className="text-3xl md:text-4xl font-bold text-red-500 mb-6"
         >
           About Queen's Plate
         </motion.h2>
 
-        <motion.p
+        {/* <motion.p
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
           className="text-gray-600 max-w-3xl mx-auto leading-relaxed text-sm md:text-base"
         >
-          Queen's Plate is a modern food service platform that brings delicious
-          Nigerian meals straight to your doorstep. We focus on quality, speed,
-          and customer satisfaction — because you deserve a meal that makes you
-          smile.
-        </motion.p>
+          Queen’s Plate is a premium corporate lunch service bringing delicious Nigerian meals to workplaces across Abuja — crafted for consistency, delivered with care.
+
+We specialize in providing freshly prepared meals for offices, with a focus on quality ingredients, reliable daily service, and a seamless experience from kitchen to workplace.
+
+Our menu features a variety of well-loved Nigerian dishes — from perfectly cooked rice options to flavorful pasta, proteins, and sides — all thoughtfully prepared to satisfy and energize your team.
+
+At Queen’s Plate, we believe a good meal should do more than fill you up — it should bring comfort, ease, and a touch of excellence to your workday.
+        </motion.p> */}
+
+        <motion.div
+  initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.8 }}
+  className="max-w-3xl mx-auto text-gray-600 space-y-6 text-[15.5px] md:text-[17px] leading-relaxed font-light"
+>
+  <p>
+    Queen’s Plate is a <span className="font-semibold text-gray-900">premium corporate lunch service</span> that brings 
+    authentic, delicious Nigerian meals directly to workplaces across Abuja.
+  </p>
+
+  <p>
+    We specialize in crafting <span className="text-emerald-700 font-medium">fresh, high-quality meals</span> with 
+    consistent taste and reliable delivery — making office lunch effortless and enjoyable.
+  </p>
+
+  <p>
+    From fragrant rice dishes and hearty pastas to succulent proteins and flavorful sides, our menu celebrates 
+    the best of Nigerian cuisine, prepared fresh daily to energize and delight your team.
+  </p>
+
+  <p className="pt-2 italic text-gray-700">
+    At Queen’s Plate, we don’t just serve food — we deliver comfort, excellence, and a little joy to every workday.
+  </p>
+</motion.div>
 
         <div className="grid md:grid-cols-3 gap-10 mt-16">
           {features.map((item, index) => (
