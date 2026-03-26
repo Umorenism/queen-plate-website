@@ -125,7 +125,7 @@ const services = [
   },
   {
     icon: <FiShoppingBag size={18} />,
-    title: "Online Ordering",
+    title: "Order your favorite lanch meals easily",
     desc: "Order your favorite meals easily from anywhere at any time.",
   },
   {
